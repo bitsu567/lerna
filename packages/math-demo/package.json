@@ -1,0 +1,25 @@
+{
+  "name": "math-demo",
+  "version": "0.0.1",
+  "description": "这是一个demo",
+  "author": "wuhongsu <neil@fiture.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/math-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm-int.fiture.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
